@@ -4,7 +4,7 @@ This is a repository of my practice projects using Cocoa Framework. Update will 
 
 @Author: HermiteBai
 
-###Update on Dec 18, 2015
+##Update on Dec 18, 2015
 
 + Project Gluttony
     + Desciption: Project Gluttony was inspired by the difficulty of choosing a place to have meals with friends. The software contains a GUI that contain the following function so far:
@@ -14,5 +14,9 @@ This is a repository of my practice projects using Cocoa Framework. Update will 
 + GNU lisence
 + README file
 
-
+##Update on Dec 19, 2015
++ SpeakLine
+   + Description: This is an app that call speech synthesizer API provided by Mac OS X that give a read of an entered sentence.
++ Letter Counter
+   + Description: This is an app that give the number of letter an entered sentence contain.
 
