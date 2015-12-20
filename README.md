@@ -20,3 +20,7 @@ This is a repository of my practice projects using Cocoa Framework. Update will 
 + Letter Counter
    + Description: This is an app that give the number of letter an entered sentence contain.
 
+##Update2 on Dec 19, 2015
++ Todo List
+	+ Desciption: Add things to do, and click the finished work in the list to delete. 
+	+ Using NSTableViewDelegate and NSTableDataSource protocols. 
