@@ -34,6 +34,16 @@
     [_textField setStringValue:@""];
 }
 
+- (IBAction)remove:(id)sender {
+    NSInteger row = [_tableView selectedRow];
+    if (row == -1) {
+        return;
+    }
+    [list removeObjectAtIndex:(NSUInteger)row];
+    NSLog(@"Removed");
+    [_tableView reloadData];
+}
+
 - (IBAction)clear:(id)sender {
     [list removeAllObjects];
     [_tableView reloadData];
@@ -59,12 +69,19 @@
 }
 
 -(void)tableViewSelectionDidChange:(NSNotification *)notification {
+    //NSInteger row = [_tableView selectedRow];
+    //if (row == -1) {
+    //    return;
+    //}
+    //[list removeObjectAtIndex:(NSUInteger)row];
+    //NSLog(@"Removed");
+    //[_tableView reloadData];
+}
+
+- (void)tableView:(NSTableView *)aTableView setObjectValue:(id)anObject forTableColumn:(NSTableColumn *)aTableColumn row:(NSInteger)rowIndex {
     NSInteger row = [_tableView selectedRow];
-    if (row == -1) {
-        return;
-    }
-    [list removeObjectAtIndex:(NSUInteger)row];
-    NSLog(@"Removed");
-    [_tableView reloadData];
+    NSString *string = [_tableView stringValue];
+    [list replaceObjectAtIndex:row withObject:string];
+    NSLog(@"Element at %d was replaced with %@.", (int)row, string);
 }
 @end
