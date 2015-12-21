@@ -2,7 +2,7 @@
 //  Document.m
 //  RaiseMan
 //
-//  Created by HermiteBai on 12/20/15.
+//  Created by HermiteBai on 12/21/15.
 //  Copyright © 2015 HermiteBai. All rights reserved.
 //
 
@@ -14,13 +14,10 @@
 
 @implementation Document
 
-@synthesize employees;
-
 - (instancetype)init {
     self = [super init];
     if (self) {
         // Add your subclass-specific initialization here.
-        employees = [[NSMutableArray alloc]init];
     }
     return self;
 }
@@ -52,13 +49,6 @@
     // If you override either of these, you should also override -isEntireFileLoaded to return NO if the contents are lazily loaded.
     [NSException raise:@"UnimplementedMethod" format:@"%@ is unimplemented", NSStringFromSelector(_cmd)];
     return YES;
-}
-
--(void)setEmployees:(NSMutableArray *)arr {
-    if (arr == employees) {
-        return;
-    }
-    employees = arr;
 }
 
 @end

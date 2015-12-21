@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B9445851C2762EA00ACAB1E"
+               BlueprintIdentifier = "6B9445AE1C28998F00ACAB1E"
                BuildableName = "RaiseMan.app"
                BlueprintName = "RaiseMan"
                ReferencedContainer = "container:RaiseMan.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B9445851C2762EA00ACAB1E"
+            BlueprintIdentifier = "6B9445AE1C28998F00ACAB1E"
             BuildableName = "RaiseMan.app"
             BlueprintName = "RaiseMan"
             ReferencedContainer = "container:RaiseMan.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B9445851C2762EA00ACAB1E"
+            BlueprintIdentifier = "6B9445AE1C28998F00ACAB1E"
             BuildableName = "RaiseMan.app"
             BlueprintName = "RaiseMan"
             ReferencedContainer = "container:RaiseMan.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B9445851C2762EA00ACAB1E"
+            BlueprintIdentifier = "6B9445AE1C28998F00ACAB1E"
             BuildableName = "RaiseMan.app"
             BlueprintName = "RaiseMan"
             ReferencedContainer = "container:RaiseMan.xcodeproj">
